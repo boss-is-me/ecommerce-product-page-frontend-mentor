@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal-bg {
+  @apply absolute inset-0 bg-neutral-900 z-30 bg-opacity-70;
+}
